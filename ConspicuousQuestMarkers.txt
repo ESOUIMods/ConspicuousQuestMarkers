@@ -1,0 +1,10 @@
+## Title: Conspicuous Quest Markers v1.17
+## Version: 1.17
+## AddOnVersion: 117
+## Author: Jhenox
+## APIVersion: 100034 100035
+## SavedVariables: ConspicuousQuestMarkers_SavedVariables
+## DependsOn: LibAddonMenu-2.0
+
+ConspicuousQuestMarkers.lua
+ConspicuousQuestMarkers_Settings.lua
