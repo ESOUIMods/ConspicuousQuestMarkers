@@ -4,7 +4,7 @@
 ## Author: Jhenox
 ## APIVersion: 101031 101032
 ## SavedVariables: ConspicuousQuestMarkers_SavedVariables
-## DependsOn: LibAddonMenu-2.0
+## DependsOn: LibAddonMenu-2.0>=32
 
 ConspicuousQuestMarkers.lua
 ConspicuousQuestMarkers_Settings.lua
