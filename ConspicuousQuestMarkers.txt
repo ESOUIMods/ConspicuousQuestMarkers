@@ -2,9 +2,9 @@
 ## Version: 1.18
 ## AddOnVersion: 118
 ## Author: Jhenox
-## APIVersion: 101031 101032
+## APIVersion: 101032 101033
 ## SavedVariables: ConspicuousQuestMarkers_SavedVariables
-## DependsOn: LibAddonMenu-2.0>=32
+## DependsOn: LibAddonMenu-2.0>=33
 
 ConspicuousQuestMarkers.lua
 ConspicuousQuestMarkers_Settings.lua
