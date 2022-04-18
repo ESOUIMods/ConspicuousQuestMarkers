@@ -1,8 +1,8 @@
 ## Title: Conspicuous Quest Markers v1.17
-## Version: 1.18
-## AddOnVersion: 118
+## Version: 1.19
+## AddOnVersion: 119
 ## Author: Jhenox
-## APIVersion: 101032 101033
+## APIVersion: 101033 101034
 ## SavedVariables: ConspicuousQuestMarkers_SavedVariables
 ## DependsOn: LibAddonMenu-2.0>=33
 

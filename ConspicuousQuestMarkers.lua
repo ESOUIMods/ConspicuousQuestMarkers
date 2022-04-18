@@ -4,7 +4,7 @@ cqm.appName = "ConspicuousQuestMarkers"
 ----------------------------------------
 -- Declarations
 ----------------------------------------
-local ADDON_VERSION = "1.18"
+local ADDON_VERSION = "1.19"
 local eso_root = "esoui/art/"
 local ui_root = "ConspicuousQuestMarkers/"
 cqm.version = ADDON_VERSION
