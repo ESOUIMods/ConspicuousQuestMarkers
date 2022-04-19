@@ -4,7 +4,8 @@ cqm.appName = "ConspicuousQuestMarkers"
 ----------------------------------------
 -- Declarations
 ----------------------------------------
-local ADDON_VERSION = "1.19"
+local ADDON_VERSION = "1.20"
+local SAVEDVARIABLES_VERSION = 3
 local eso_root = "esoui/art/"
 local ui_root = "ConspicuousQuestMarkers/"
 cqm.version = ADDON_VERSION
@@ -80,7 +81,7 @@ function cqm.OnAddOnLoaded(eventCode, addOnName)
     if addOnName ~= cqm.appName then
         return
     end
-    cqm.SV = ZO_SavedVars:NewAccountWide("ConspicuousQuestMarkers_SavedVariables", ADDON_VERSION, defaults, nil)
+    cqm.SV = ZO_SavedVars:NewAccountWide("ConspicuousQuestMarkers_SavedVariables", SAVEDVARIABLES_VERSION, nil, defaults)
     cqm:initLAM(icon_themes)
     if cqm.SV.show_on_compass then
         RedirectTextures("floatingmarkers/", "cqm_textures/" .. cqm.SV.icon_theme .. "/", cqm_textures)
