@@ -4,7 +4,7 @@ cqm.appName = "ConspicuousQuestMarkers"
 ----------------------------------------
 -- Declarations
 ----------------------------------------
-local ADDON_VERSION = "1.20"
+local ADDON_VERSION = "1.21"
 local SAVEDVARIABLES_VERSION = 3
 local eso_root = "esoui/art/"
 local ui_root = "ConspicuousQuestMarkers/"
@@ -80,6 +80,14 @@ function cqm.OnAddOnLoaded(eventCode, addOnName)
 	end
     if addOnName ~= cqm.appName then
         return
+    end
+    if ConspicuousQuestMarkers_SavedVariables and
+        ConspicuousQuestMarkers_SavedVariables.Default and
+        ConspicuousQuestMarkers_SavedVariables.Default[GetDisplayName()] and
+        ConspicuousQuestMarkers_SavedVariables.Default[GetDisplayName()]["$AccountWide"] then
+        if type(ConspicuousQuestMarkers_SavedVariables.Default[GetDisplayName()]["$AccountWide"].version) == 'string' then
+          ConspicuousQuestMarkers_SavedVariables.Default[GetDisplayName()]["$AccountWide"].version = math.floor(tonumber(ConspicuousQuestMarkers_SavedVariables.Default[GetDisplayName()]["$AccountWide"].version))
+        end
     end
     cqm.SV = ZO_SavedVars:NewAccountWide("ConspicuousQuestMarkers_SavedVariables", SAVEDVARIABLES_VERSION, nil, defaults)
     cqm:initLAM(icon_themes)
