@@ -1,6 +1,6 @@
-## Title: Conspicuous Quest Markers v1.21
-## Version: 1.21
-## AddOnVersion: 121
+## Title: Conspicuous Quest Markers v1.22
+## Version: 1.22
+## AddOnVersion: 122
 ## Author: |cada684Jhenox|r, |cff9b15Sharlikran|r
 ## APIVersion: 101033 101034
 ## SavedVariables: ConspicuousQuestMarkers_SavedVariables
