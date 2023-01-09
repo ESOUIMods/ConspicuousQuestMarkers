@@ -2,7 +2,7 @@
 ## Version: 1.22
 ## AddOnVersion: 122
 ## Author: |cada684Jhenox|r, |cff9b15Sharlikran|r
-## APIVersion: 101033 101034
+## APIVersion: 101035 101036
 ## SavedVariables: ConspicuousQuestMarkers_SavedVariables
 ## DependsOn: LibAddonMenu-2.0>=33
 
